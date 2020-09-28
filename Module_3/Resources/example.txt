@@ -1,7 +1,0 @@
-f = open('example.txt','r') #open file from working directory in reading mode
-fp = open('C:/xyz.txt','r') #open file from any directory
-
->>> print (*f) #print the content of file
-This is a text file.
->>> print (f) #ptint mode and encoding
-<_io.TextIOWrapper name='example.txt' mode='r' encoding='cp1252'>
