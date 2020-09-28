@@ -47,7 +47,8 @@ A Colorado Board of Elections employee has given you the following tasks to comp
   - Raymon Anthony Doane
     - 3.1% of the votes with 11,606 total votes.
 - <b>Winner of the election:
-  - Diana DeGette with 73.8% of the votes with 272,892 total votes. </br>
+  - Diana DeGette with 73.8% of the votes with 272,892 total votes. </b>
+
 
 ## Election Audit Summary
-While this script was made for the given election data, with some minor changes, it could be used for any election. Any election data set with the format of [ballot number, county name, candidate] could be imported into the script and run with no modifications other than changing the election data file. Any file in a format similar to the one used in this script could also be modified to fit the script as is, ie, re-arranging columns, deleating columns not used in this script, etc. If changing the data file is not an option, the script itself could be altered in slight ways to accomidate different data file. The index values in lines ![48 and 51](PyPoll_Python_Challenge/Resources/candidate_county_index.png) could be changed to allow for different columns to be used to gather the county and candidate data.
+While this script was made for the given election data, with some minor changes, it could be used for any election. Any election data set with the format of [ballot number, county name, candidate] could be imported into the script and run with no modifications other than changing the election data file. Any file in a format similar to the one used in this script could also be modified to fit the script as is, ie, re-arranging columns, deleating columns not used in this script, etc. If changing the data file is not an option, the script itself could be altered in slight ways to accomidate different data file. The index values in lines 48 and 51![48 and 51](PyPoll_Python_Challenge/Resources/candidate_county_index.png) <br>could be changed to allow for different columns to be used to gather the county and candidate data. If other metrics were desired, any of the variables could be changed, and referenced throughought the script as well. 
